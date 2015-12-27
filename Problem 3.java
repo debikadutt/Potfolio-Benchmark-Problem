@@ -27,7 +27,7 @@ import java.util.*;
 	    	String[] inputArray=portfolioString.split(COLON);
 	    	String[] benchmarkArray = inputArray[1].split(SEPARATOR);   	
 	    	Arrays.sort(benchmarkArray, new Comparator<String>() {
-	    		
+	    	
 	    		@Override
 	    		// ordering the holdings
 	    		public int compare(String s1, String s2) {
